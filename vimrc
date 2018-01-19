@@ -32,7 +32,7 @@ set autoindent
 autocmd BufWritePre * :%s/\s\+$//e
 
 set hlsearch
-nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
+"nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
 
 set showmatch
 
@@ -44,3 +44,4 @@ nmap <leader>j :NERDTreeFind<CR>
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 let NERDTreeIgnore=['\.DS_Store','\~$','\.swp']
+
